@@ -1,5 +1,6 @@
 version: "3"
 
+#docker-compose run app sh -c "python manage.py test && flake8"
 services:
   app:
     build:
